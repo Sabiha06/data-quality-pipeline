@@ -1,0 +1,3 @@
+patient_id,name,age,gender,email,diagnosis,hospital
+201,Rahul Verma,45.0,M,rahul@email.com,Diabetes,Apollo
+206,Anita Sharma,34.0,F,anita@email.com,,Apollo

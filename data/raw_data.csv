@@ -1,0 +1,8 @@
+patient_id,name,age,gender,email,diagnosis,hospital
+201,Rahul Verma,45,M,rahul@email.com,Diabetes,Apollo
+202,Priya Singh,,F,priyaemail.com,Hypertension,Fortis
+203,Amit Kumar,130,M,amit@email.com,Flu,AIIMS
+201,Rahul Verma,45,M,rahul@email.com,Diabetes,Apollo
+204,Sneha Roy,29,F,,Asthma,Max
+205,John Dsouza,-10,M,john@email,Cold,Medanta
+206,Anita Sharma,34,F,anita@email.com,,Apollo
