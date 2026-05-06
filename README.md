@@ -14,53 +14,53 @@ The dataset contains common real-world data issues such as missing values, inval
 
 A synthetic healthcare dataset was created to simulate real-world data quality challenges, including:
 
-\ Missing values
+ Missing values
 
-\ Invalid age values
+ Invalid age values
 
-\ Incorrect email formats
+ Incorrect email formats
 
-\ Duplicate patient records
+ Duplicate patient records
 
 
 
 \## Features
 
-\ Data cleaning and preprocessing using Python (Pandas)
+ Data cleaning and preprocessing using Python (Pandas)
 
-\ Missing value detection
+ Missing value detection
 
-\ Duplicate record removal
+ Duplicate record removal
 
-\ Data validation (age, email, required fields)
+ Data validation (age, email, required fields)
 
-\ Automated data quality reporting
+ Automated data quality reporting
 
 
 
 \## Tools Used
 
-\ Python
+ Python
 
-\ Pandas
+ Pandas
 
 
 
 \## Output
 
-\ Cleaned dataset (`cleaned\_data.csv`)
+ Cleaned dataset (`cleaned\_data.csv`)
 
-\ Data quality report (`quality\_report.txt`)
+ Data quality report (`quality\_report.txt`)
 
 
 
 \## Future Work
 
-\ Entity resolution (detecting similar patient records)
+ Entity resolution (detecting similar patient records)
 
-\ Advanced data validation rules
+ Advanced data validation rules
 
-\ Integration with real-world healthcare datasets
+ Integration with real-world healthcare datasets
 
 
 
