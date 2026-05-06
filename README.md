@@ -58,6 +58,14 @@ data-quality-project/
 
 ---
 
+## Results
+The pipeline successfully identified and corrected:
+- Missing values across multiple fields
+- Invalid records (e.g., unrealistic ages, malformed emails)
+- Duplicate patient entries
+
+This improves overall data consistency and reliability.
+
 ## Future Work
 
 * Entity resolution (detecting similar patient records)
