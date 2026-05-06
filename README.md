@@ -36,7 +36,7 @@ A synthetic healthcare dataset was created to simulate real-world data quality c
 ---
 
 ## Project Structure
-> This section shows the organization of files and directories in the project.
+> This shows the organization of files in the project.
 ```
 data-quality-project/
 │── data/
