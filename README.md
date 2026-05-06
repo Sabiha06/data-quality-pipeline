@@ -1,66 +1,72 @@
-\# Healthcare Data Quality Pipeline
+# Healthcare Data Quality Pipeline
 
+## Overview
 
-
-\## Overview
-
-This project demonstrates a data quality pipeline applied to a healthcare dataset. 
-
+This project demonstrates a data quality pipeline applied to a healthcare dataset.
 The dataset contains common real-world data issues such as missing values, invalid entries, and duplicate records.
 
+---
 
-
-\## Dataset
+## Dataset
 
 A synthetic healthcare dataset was created to simulate real-world data quality challenges, including:
 
-\- Missing values
+* Missing values
+* Invalid age values
+* Incorrect email formats
+* Duplicate patient records
 
-\- Invalid age values
+---
 
-\- Incorrect email formats
+## Features
 
-\- Duplicate patient records
+* Data cleaning and preprocessing using Python (Pandas)
+* Missing value detection
+* Duplicate record removal
+* Data validation (age, email, required fields)
+* Automated data quality reporting
 
+---
 
+## Tools Used
 
-\## Features
+* Python
+* Pandas
 
-\- Data cleaning and preprocessing using Python (Pandas)
+---
 
-\- Missing value detection
+## Project Structure
+> This shows the organization of files in the project.
+```
+data-quality-project/
+│── data/
+│   └── raw_data.csv
+│── src/
+│   └── data_cleaning.py
+│── output/
+│   ├── cleaned_data.csv
+│   └── quality_report.txt
+│── README.md
+```
 
-\- Duplicate record removal
+---
 
-\- Data validation (age, email, required fields)
+## Output
 
-\- Automated data quality reporting
+* Cleaned dataset: `cleaned_data.csv`
+* Data quality report: `quality_report.txt`
 
+---
 
+## Future Work
 
-\## Tools Used
+* Entity resolution (detecting similar patient records)
+* Advanced data validation rules
+* Integration with real-world healthcare datasets
 
-\- Python
+---
 
-\- Pandas
+## Author
 
-
-
-\## Output
-
-\- Cleaned dataset (`cleaned\_data.csv`)
-
-\- Data quality report (`quality\_report.txt`)
-
-
-
-\## Future Work
-
-\- Entity resolution (detecting similar patient records)
-
-\- Advanced data validation rules
-
-\- Integration with real-world healthcare datasets
-
-
+Sabiha
 
