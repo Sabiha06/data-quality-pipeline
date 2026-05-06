@@ -64,7 +64,7 @@ The pipeline successfully identified and corrected:
 - Invalid records (e.g., unrealistic ages, malformed emails)
 - Duplicate patient entries
 
-This improves overall data consistency and reliability.
+These steps enhanced data consistency, reliability, and usability for downstream analysis.
 
 ## Future Work
 
