@@ -18,6 +18,23 @@ A synthetic healthcare dataset was created to simulate real-world data quality c
 
 ---
 
+## Sample Input Data
+
+| Name | Age | Email |
+|---|---|---|
+| Alice | 25 | alice@email.com |
+| Bob |  | bobemail.com |
+| Charlie | 150 | charlie@email.com |
+| Alice | 25 | alice@email.com |
+| David | 30 |  |
+| Eve | 28 | eve@email.com |
+
+The dataset intentionally contains:
+- Missing values
+- Invalid email formats
+- Duplicate records
+- Unrealistic age values
+
 ## Features
 
 * Data cleaning and preprocessing using Python (Pandas)
@@ -27,6 +44,18 @@ A synthetic healthcare dataset was created to simulate real-world data quality c
 * Automated data quality reporting
 
 ---
+
+## Validation Checks
+
+The pipeline performs the following validation steps:
+
+| Validation Check | Purpose |
+|---|---|
+| Missing value detection | Identify incomplete records |
+| Duplicate detection | Remove repeated records |
+| Email format validation | Detect malformed email addresses |
+| Age range validation | Remove unrealistic age values |
+| Column standardization | Improve data consistency |
 
 ## Tools Used
 
@@ -49,8 +78,6 @@ data-quality-project/
 │── README.md
 ```
 
----
-
 ## Output
 
 * Cleaned dataset: `cleaned_data.csv`
@@ -59,12 +86,17 @@ data-quality-project/
 ---
 
 ## Results
-The pipeline successfully identified and corrected:
-- Missing values across multiple fields
-- Invalid records (e.g., unrealistic ages, malformed emails)
-- Duplicate patient entries
 
-These steps enhanced data consistency, reliability, and usability for downstream analysis.
+The pipeline successfully identified and corrected:
+
+| Check | Result |
+|---|---|
+| Missing values found | 2 |
+| Duplicate rows removed | 1 |
+| Invalid emails detected | 1 |
+| Invalid age records removed | 1 |
+
+This improved overall data consistency and reliability for downstream analysis.
 
 ## Future Work
 
@@ -73,8 +105,16 @@ These steps enhanced data consistency, reliability, and usability for downstream
 * Integration with real-world healthcare datasets
 
 ---
+## Workflow
 
-## Author
-
-Sabiha
-
+Raw Dataset
+   ↓
+Data Validation
+   ↓
+Data Cleaning
+   ↓
+Duplicate Removal
+   ↓
+Quality Reporting
+   ↓
+Cleaned Dataset
